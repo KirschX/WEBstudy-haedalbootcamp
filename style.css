@@ -1,0 +1,46 @@
+ html,body{
+          margin:0;
+          padding:0;
+          }
+
+
+          ul{
+          list-style : none;
+          }
+
+          a{
+          text-decoration:none;
+          color:black;
+          font-size:25px;
+          text-transform:uppercase;
+          }
+
+          li{
+          width:250px;
+          background-color:#FFFFFF;
+          padding:15px;
+          border:solid 1px #ececec;
+          transition: background-color : 0.4s, margin-left 1s;
+          font-size: 40px;
+          text-transform:uppercase;
+          }
+
+          li:hover{
+          background-color:gray;
+          }
+
+          a:hover{
+          color:white;
+          }
+
+          #wrap2, h1{
+          background-color:gray;
+          }
+
+
+
+          @media(max-width:800px) {
+            div{
+              display:none;
+               }
+          }
